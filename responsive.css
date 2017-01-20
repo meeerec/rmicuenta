@@ -1851,4 +1851,52 @@ select#state, select#city {
         .modal .modal-dialog .modal-footer > .confirmation-buttons .btn-stillNo {
           background: #fff; }
 
+.completed0 {
+  width: 0%;
+  height: 65px; }
+  @media only screen and (min-width: 544px) {
+    .completed0 {
+      width: 25px !important;
+      height: 0% !important; } }
+
+.completed17 {
+  width: 17%;
+  height: 65px; }
+  @media only screen and (min-width: 544px) {
+    .completed17 {
+      height: 17% !important;
+      width: 25px !important; } }
+
+.completed34 {
+  width: 34%;
+  height: 65px; }
+  @media only screen and (min-width: 544px) {
+    .completed34 {
+      height: 34% !important;
+      width: 25px !important; } }
+
+.completed51 {
+  width: 51%;
+  height: 65px; }
+  @media only screen and (min-width: 544px) {
+    .completed51 {
+      height: 51% !important;
+      width: 25px !important; } }
+
+.completed68 {
+  width: 68%;
+  height: 65px; }
+  @media only screen and (min-width: 544px) {
+    .completed68 {
+      height: 68% !important;
+      width: 25px !important; } }
+
+.completed85 {
+  width: 85%;
+  height: 65px; }
+  @media only screen and (min-width: 544px) {
+    .completed85 {
+      height: 85% !important;
+      width: 25px !important; } }
+
 /*# sourceMappingURL=responsive.css.map */

@@ -2061,6 +2061,54 @@ select#state, select#city{
 	}
 }
 
+.completed0{
+width:0%;
+height:65px;
+	@media #{$mobile}{
+		width:25px !important;
+		height:0% !important ;
+	}
+}
+.completed17{
+width:17%;
+height:65px;
+	@media #{$mobile}{
+		height:17% !important;
+		width:25px !important;
+	}
+}
+.completed34{
+width:34%;
+height:65px;
+	@media #{$mobile}{
+		height:34% !important;
+		width:25px !important;
+	}
+}
+.completed51{
+width:51%;
+height:65px;
+	@media #{$mobile}{
+		height:51% !important;
+		width:25px !important;
+	}
+}
+.completed68{
+width:68%;
+height:65px;
+	@media #{$mobile}{
+		height:68% !important;
+		width:25px !important;
+	}
+}
+.completed85{
+width:85%;
+height:65px;
+	@media #{$mobile}{
+		height:85% !important;
+		width:25px !important;
+	}
+}
 
 
 

@@ -437,6 +437,27 @@ div.content_wrapper > div.content_left_shadow, div.content_wrapper > div.content
     display: block;
     line-height: inherit; }
 
+.btnFacturacionImprimir {
+  border: solid 1px #424242;
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #424242;
+  letter-spacing: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+
+.btnFacturacionDocumento {
+  height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  color: #fff;
+  letter-spacing: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0; }
+
 #cartola_rpuntos {
   font-family: "Montserrat", sans-serif; }
   #cartola_rpuntos h2 {

@@ -3,6 +3,9 @@ body {
   font-family: 'Montserrat', sans-serif !important;
   background: #fff;
   font-size: 14px !important; }
+  @media only screen and (min-width: 992px) {
+    body {
+      background: #fff !important; } }
 
 a, fieldset, form, p, li, ol, ul, body, html, tr, td, img {
   font-size: 14px;
@@ -146,7 +149,7 @@ div.content_wrapper > div.content_left_shadow, div.content_wrapper > div.content
       display: block;
       height: 28px;
       width: 24px;
-      background: transparent url("http://www.ripley.cl/ripley-chile/minisitios/repositorio/bolsa-compras.svg") center center no-repeat;
+      background: transparent url("https://home.ripley.cl/assets-styles/rmicuenta/img/bolsa.svg") center center no-repeat;
       background-size: 100%;
       padding: 0;
       margin: 0; }

@@ -5,8 +5,8 @@ $desktop: "only screen and (min-width: 992px)";
 $tablet: "only screen and (min-width: 768px)";
 $mobile: "only screen and (min-width: 544px)";
 $print: "only print";
-$retina: "only screen and (-webkit-min-device-pixel-ratio: 1.5), 
-only screen and (min--moz-device-pixel-ratio: 1.5), 
+$retina: "only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (min-resolution: 240dpi)";
 
 @mixin border-radius ($radius){
@@ -16,10 +16,10 @@ only screen and (min-resolution: 240dpi)";
 }
 
 @mixin transition ($transition) {
-	-webkit-transition: $transition 0.1s ease-in-out;  
-	-moz-transition: $transition 0.1s ease-in-out; 
-	-ms-transition: $transition 0.1s ease-in-out; 
-	-o-transition:  $transition 0.1s ease-in-out; 
+	-webkit-transition: $transition 0.1s ease-in-out;
+	-moz-transition: $transition 0.1s ease-in-out;
+	-ms-transition: $transition 0.1s ease-in-out;
+	-o-transition:  $transition 0.1s ease-in-out;
 	transition: $transition 0.1s ease-in-out;
 }
 
@@ -29,6 +29,9 @@ body{
 	font-family: 'Montserrat', sans-serif !important;
 	background:#fff;
 	font-size:14px !important;
+	@media #{$desktop}{
+		background: #fff !important;
+	}
 }
 a, fieldset, form, p, li, ol, ul, body, html, tr, td, img{
 	font-size:14px;
@@ -180,7 +183,7 @@ div.content_wrapper > div.content_left_shadow, div.content_wrapper > div.content
 			display: block;
 			height:28px;
 			width:24px;
-			background: transparent url("http://www.ripley.cl/ripley-chile/minisitios/repositorio/bolsa-compras.svg") center center no-repeat;
+			background: transparent url("https://home.ripley.cl/assets-styles/rmicuenta/img/bolsa.svg") center center no-repeat;
 			background-size:100%;
 			padding:0;
 			margin:0;
@@ -1879,7 +1882,7 @@ select#state, select#city{
 	@include transition(all);
 	@media #{$tablet} {
 		overflow: hidden;
-		height: 100%; 
+		height: 100%;
 	}
 	&.in{
 	    display: block;
@@ -1889,7 +1892,7 @@ select#state, select#city{
 	    filter: alpha(opacity=100);
 	}
 	.modal-margin {
-		margin-bottom: 30px !important; 
+		margin-bottom: 30px !important;
 	}
 	.modal-dialog {
 		background: #fff;
@@ -1918,7 +1921,7 @@ select#state, select#city{
 		&:focus {
 			outline: none;
 			box-shadow: none;
-			border: none; 
+			border: none;
 		}
 		&.modal-wide {
 			@media #{$tablet}{
@@ -2126,8 +2129,3 @@ height:65px;
 		width:25px !important;
 	}
 }
-
-
-
-
-
